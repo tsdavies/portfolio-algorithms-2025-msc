@@ -22,13 +22,13 @@ Runs the full suite with per-test timeouts (multiprocessing; ~3s/test by default
 
 ## Files & structure
 
-\`\`\`
+```
 .
 ├─ README.md
 ├─ template.py            # implementations for exercise1..exercise5
 ├─ testingFramework.py    # official test harness & cases
 └─ wordle.txt             # dictionary required by exercises 2 & 3 (one word per line)
-\`\`\`
+```
 
 > If you prefer splitting implementations, keep `template.py` as the public entry point and import internally.
 
@@ -41,24 +41,24 @@ Runs the full suite with per-test timeouts (multiprocessing; ~3s/test by default
 - `wordle.txt` present in the repo root (lowercase, one word per line; five letters recommended)
 
 **Run**
-\`\`\`bash
+```bash
 python3 testingFramework.py template.py
-\`\`\`
+```
 
 If `python3` isn’t available on your system:
-\`\`\`bash
+```bash
 python testingFramework.py template.py
-\`\`\`
+```
 
 You’ll see per-test logs and per-function scores. Example:
-\`\`\`
+```
 #### FUNCTION exercise1:
 
 Test: 1
 exercise1([...]): PASSED
 ...
 #### FUNCTION exercise1 SCORE: 2 / 2
-\`\`\`
+```
 
 **Notes**
 - The harness imports the module passed on the command line (no `.py` extension internally).
@@ -73,13 +73,13 @@ exercise1([...]): PASSED
 - Changing this list may change the expected counts in certain tests.
 
 Tiny example:
-\`\`\`
+```
 cacao
 ratio
 coast
 actor
 chaos
-\`\`\`
+```
 
 ---
 
