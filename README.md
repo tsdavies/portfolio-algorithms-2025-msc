@@ -1,4 +1,4 @@
-# Algorithms & Test Harness (Tammy Davies, MSc Portfolio · Cardiff University · 2025)
+# Algorithms & Unit Test Harness (Tammy Davies, MSc Portfolio · Cardiff University · 2025)
 
 A compact, production-clean showcase of five algorithmic exercises plus a cross-platform, multiprocessing test harness. It demonstrates graph theory, search, recursion/backtracking, lexicographic optimisation, and practical testability.
 
@@ -83,7 +83,7 @@ chaos
 
 ---
 
-## Design notes (succinct)
+## Design notes
 
 ### `exercise1` — Spacemon Competition
 - Deterministic turn order; uses a fixed multiplier table.
